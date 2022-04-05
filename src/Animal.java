@@ -3,6 +3,7 @@ public abstract class Animal {
 
     abstract void makeSound();
     public abstract boolean eat(String foodType);
+    public abstract void showMood(Boolean mood);
     // a little test
     // another comment
 }

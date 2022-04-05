@@ -3,12 +3,15 @@ public class Main {
         Dog lassie = new Dog();
         Cat kuro = new Cat();
 
-        kuro.name = "kuro";
-
+        kuro.name = "Kuro";
+        lassie.name = "Lassie";
         kuro.makeSound();
         lassie.makeSound();
 
         kuro.eat("Fish");
         lassie.eat("Steak");
+
+        kuro.showMood(true);
+        lassie.showMood(false);
     }
 }
